@@ -48,4 +48,42 @@ flex-wrap: wrap;    }
     position: relative;
     bottom: -7px;
   }
+/*
+  .upcoming{
+    height:40px ;
+    width: 30px;
+    background-color:black;
+    border-radius:5%;
+    padding:10%;
+    margin-top: -5%;
+    margin-left: 8%;
+     
+  }
 
+  .upcoming-match{
+   text-decoration: none;
+   font-size: 10px;
+   color: black;
+   background-color: white;
+    padding: 10px 40px;
+   }*/
+
+   .all-players img{
+
+    height: 300px;
+    width: 239px;
+
+   }
+   .transfer{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 5px 15px;
+    border-radius: 5px;
+    border: 1px solid black; 
+margin-left: 15%;}
+
+.box-shadow{
+    
+
+}
