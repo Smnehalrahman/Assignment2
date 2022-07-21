@@ -61,11 +61,41 @@ flex-wrap: wrap;    }
   }
 
   .upcoming-match{
+   flex-direction: column;
    text-decoration: none;
-   font-size: 10px;
    color: black;
    background-color: white;
+   padding: 8px 15px;
+   font-size: 15px;
+   margin-left: -50px;
+   text-align: center;
+   border-radius: 5px;
+   
+
    }
+   .upcoming-match-1{
+    flex-direction: column;
+    text-decoration: none;
+    background-color: rgb(8, 8, 207);
+    padding: 8px 15px;
+    font-size: 15px;
+    margin-left: -50px;
+    text-align: center;
+    border-radius: 5px;
+
+ 
+    }
+    .upcoming input{
+        margin-top: -20px;
+margin-bottom:15px ;    }
+
+.all-players{
+    border: 1px thin;
+    padding: 0px;
+    box-shadow: 1px 2px 1px 1px #dad8d8;
+    margin-bottom: 25px;
+}
+
 
    .all-players img{
 
@@ -94,7 +124,7 @@ display: grid;
 grid-template-columns: repeat(3,1fr);
 grid-row-gap: 0%;
 grid-column-gap:15px ;
-margin-left: 17%;
+margin-left: 10%;
 margin-top: -10%;
 
 }
@@ -107,10 +137,14 @@ margin-top: -10%;
 .box-shadow{
 display: flex;
 margin-left: 15%;
+justify-content: space-between;
+margin-right: 15%;
+padding-top: 30px;
 }
 
 .transferr{
     margin-left: 15%;
+    padding-top: 15%;
 }
 .ftr{
     height: 400px;
