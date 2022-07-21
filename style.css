@@ -48,15 +48,15 @@ flex-wrap: wrap;    }
     position: relative;
     bottom: -7px;
   }
-/*
+
   .upcoming{
-    height:40px ;
-    width: 30px;
+    height:100px ;
+    width: 120px;
     background-color:black;
     border-radius:5%;
     padding:10%;
-    margin-top: -5%;
-    margin-left: 8%;
+    margin-top: -10%;
+    margin-left: 15%;
      
   }
 
@@ -65,8 +65,7 @@ flex-wrap: wrap;    }
    font-size: 10px;
    color: black;
    background-color: white;
-    padding: 10px 40px;
-   }*/
+   }
 
    .all-players img{
 
@@ -81,9 +80,76 @@ flex-wrap: wrap;    }
     padding: 5px 15px;
     border-radius: 5px;
     border: 1px solid black; 
-margin-left: 15%;}
+    margin-left: 15%;}
 
-.box-shadow{
-    
+
+
+.players{
+    margin-bottom: -5%;
 
 }
+.grid{
+width: 60%;
+display: grid;
+grid-template-columns: repeat(3,1fr);
+grid-row-gap: 0%;
+grid-column-gap:15px ;
+margin-left: 17%;
+margin-top: -10%;
+
+}
+.gridandupcoming{
+    height:1000px;
+    width: 850px;
+    background-color: white;
+}
+
+.box-shadow{
+display: flex;
+margin-left: 15%;
+}
+
+.transferr{
+    margin-left: 15%;
+}
+.ftr{
+    height: 400px;
+    width: 100%;
+    background-color: black;
+}
+.gl{
+    color: white;
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 80px;
+
+}
+.styleee{
+    height:1px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-width:0;
+    background-color:gray
+    
+
+
+}
+.ftr ul{
+    margin: 0px;
+    padding: 25px;
+    list-style:none ;
+    text-align: center;
+}
+
+.ftr ul li{
+    display: inline-block;
+    padding: 0px 15px;
+
+
+}
+.ftr ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
